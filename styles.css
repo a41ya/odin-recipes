@@ -1,9 +1,10 @@
 html {
   box-sizing: border-box;
   background-color: rgb(20, 29, 37);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: pink;
   font-size: 16px;
+  font-weight: 400;
 }
 
 *, *::before, *::after {
@@ -25,8 +26,18 @@ h1 {
   font-size: 70px;
 }
 
+img {
+  width: 100%;
+  max-width: 700px;
+  align-self: center;
+}
+p {
+  font-size: 18px;
+  font-weight: 600;
+}
 ul {
   padding: 0;
+  color: pink;
 }
 
 li {
@@ -55,4 +66,32 @@ color: deeppink;
 
 a:active {
   color: pink;
+}
+
+div.ingredients,  
+div.steps {
+  padding: 10px 10px;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  font-weight: 100;
+  
+}
+
+div li {
+  width: auto;
+}
+
+button {
+  background-color: whitesmoke;
+  color: deeppink;
+  padding: 10px 20px;
+  margin: auto;
+  font-size: 18px;
+}
+
+#recipe {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
 }
